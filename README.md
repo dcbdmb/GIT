@@ -1,5 +1,7 @@
-==GIT info==
-reference: http://rogerdudler.github.io/git-guide/
+# GIT info
+
+## Commands from the following
+http://rogerdudler.github.io/git-guide/
 git init
 git add <filename>
 git add *
