@@ -22,7 +22,7 @@ git config --global user.email "dcbdmb@gmail.com"
 git push -u origin master
 
 ## Markdown info
-(https://github.com/dcbdmb/GIT)
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Another URL
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
