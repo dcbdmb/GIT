@@ -3,6 +3,10 @@
 ## Commands from the following
 http://rogerdudler.github.io/git-guide/
 
+git remote add origin https://github.com/dcbdmb/CWD
+
+git remote -v (confirm the remote location details for current directory)
+
 git init
 
 git add <filename>
