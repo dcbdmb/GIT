@@ -8,9 +8,17 @@ read -p "Override current directory name?::" answer
 while true
 do
   case $answer in
-   [yY]* ) read -p "Enter new RepoName:" REPONAME
-   [nN]* ) echo "continuing with reponame of existing directory..."
-   break;;
+   [yY])
+        read -p "Enter new RepoName:" REPONAME
+	break
+        ;;
+   [nN])
+        echo "continuing with reponame of existing directory..."
+	break
+        ;;
+   *)
+        echo "Invalid entry. Y|N needed..."
+        read -p "Override current directory name?::" answer
   esac
 done
 
