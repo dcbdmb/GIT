@@ -9,8 +9,8 @@ while true
 do
   case $answer in
    [yY]* ) read -p "Enter new RepoName:" REPONAME
-           break;;
-   [nN]* ) exit;;
+   [nN]* ) echo "continuing with reponame of existing directory..."
+   break;;
   esac
 done
 
